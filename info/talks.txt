@@ -1,0 +1,137 @@
+-------------------
+Workshop
+Doctrine 2: An Introduction
+
+Doctrine is an enterprise object persistence layer for PHP 5.3.2+ that supports persisting PHP objects to relational databases like MySQL, Oracle, etc. and document based storage systems like MongoDB as well. Dive in head first and learn the Doctrine way in this workshop. From basics to best practices, performance optimization and legacy applications migration.
+
+Comments
+Previously given at PHPDays in India, ZendCon and Dutch PHP conference. I'm also a part of Doctrine Core team and with Symfony2 hype Doctrine2 is hugely popular too,
+
+-------------------
+Talk
+Doctrine 2: An Introduction
+
+Doctrine is an enterprise object persistence layer for PHP 5.3.2+ that supports persisting PHP objects to relational databases like MySQL, Oracle, etc. and document based storage systems like MongoDB as well. Dive in head first and learn the Doctrine way in this talk.
+
+Comments
+Latest slides: http://www.slideshare.net/juokaz/doctrine-2-php-barcelona
+Given before at PHPNW in Manchester, PHP Barcelona, phpDay in Italy, various user groups, etc. Very popular talk filling the room easily. I'm also part of Doctrine Core team and inspire people to try it out.
+
+-------------------
+Talk
+Living with old code
+
+Imagine yourself stuck with 3 years old application, struggling to maintain it and finding it extremely hard to add new features. Most likely you don't even have to imagine this - all developers eventually have to deal with these problems. Thus let's talk about refactoring, technical debt and writing maintainable applications.
+
+Comments
+Based on years of experience consulting various clients on how they can resolve technical debt this talk consists of various stories and solutions taken to refactor applications to make them maintainble.
+
+-------------------
+
+Talk
+Choosing the right NoSQL database
+
+There are a lot of NoSQL databases and everyone seems to be using them, but you might find yourself struggling to choose and do not want to make a bad decision which you will need to support for years. This talk looks at existing database systems and describes which use case applies best.
+
+Comments
+There are talks about MongoDB, CouchDB, DynamoDB, Cassandra, etc., but they all leave a developer wondering which one to go with. This talk answers which problems need which solutions and how to base a decision.
+
+-------------------
+Talk
+The new era of PHP frameworks
+
+Lithium, Symfony, Zend Framework, Doctrine, Kohana etc., all these top PHP frameworks are getting their new major releases done in 2011/2012. What to expect from them, what features are they bringing, why PHP 5.3 is going to be a key version here and how PHP will look in 2012? All questions answered and announcements made in this talk.
+
+Comments
+Has a keynote feel, though wasn't delivered as such yet (hint). gave this talk at php days in India, pfcongress in The Netherlands and Dutch PHP conference. Original blog post: http://blog.webspecies.co.uk/2011-05-23/the-new-era-of-php-frameworks.html, slides: http://www.slideshare.net/juokaz/the-new-era-of-php-frameworks-pfcongres
+
+-------------------
+Talk
+PHP in the Cloud
+
+Cloud is a big buzzword, but it actually means something. Do you know what? Come and see for yourself. Let’s discuss what cloud really means and how it applies to PHP applications, how to write and deploy cloud-ready websites.
+
+Comments
+Very well accepted keynote in PHP Barcelona conference http://joind.in/talk/view/4317. Slides: http://www.slideshare.net/juokaz/php-in-the-cloud-php-barcelona. Super interesting for people, with demos, overview and general knowledge. Leaves people more aware of what's up. Doesn't need to be a keynote, can be a regular talk too though.
+
+--------------------
+Talk
+Lazy Evaluation - stop wasting memory and time
+
+Processing one billion database rows doesn't need to kill your web server. Really, it doesn't. Applying lazy evaluation ideas you can make your scripts handle as much data as there exists, never using more memory than one unit's size (for example a database row). Using clever iterators, cursors and streams I'll show you how you can reduce memory usage drastically, thus making your scripts more reliable and your sysadmins happy. 
+
+Comments
+This talk shows attendees how they can optimize memory usage, make applications faster and more stable. This doesn't talk about Hadoop and Gearman, this is about PHP level solutions for different kind of problems. Original ideas from: http://blog.webspecies.co.uk/2011-05-31/lazy-evaluation-with-php.html 
+
+--------------------
+Talk
+Virtualized development
+
+Setting up a LAMP environment might be the first thing you learn, but I'm going to argue that setting up LAMP on your laptop is hardly the best way to work. Using virtualization and automation tools you can simplify the process and also have better control of what your colleagues are using and even what's running in production. Plus a ton more awesome features you get for free. This is going to open your eyes a bit, I hope.
+
+Comments
+This talks goes over VirtualBox, Puppet and various over tools to automate and write down specifications for development, testing and production environments. Original ideas: http://blog.webspecies.co.uk/2011-05-16/virtual-machines-for-web-developers.html
+
+--------------------
+Workshop
+Virtualized development
+
+Setting up a LAMP environment might be the first thing you learn, but I'm going to argue that setting up LAMP on your laptop is hardly the best way to work. Using virtualization and automation tools you can simplify the process and also have better control of what your colleagues are using and even what's running in production. Plus a ton more awesome features you get for free. This is going to open your eyes a bit, I hope.
+
+Comments
+This workshop goes over VirtualBox, Puppet and various over tools to automate and write down specifications for development, testing and production environments. Attendees get to test this themselves and leave with fully working virtual environments. Original ideas: http://blog.webspecies.co.uk/2011-05-16/virtual-machines-for-web-developers.html
+
+--------------------
+Talk
+ORMs Suck! Or do they?.. 
+
+PHP ORM libraries like Doctrine or Propel are growing in popularity, however a lot of previous users have complained about various issues they had with them. Be it slow performance, complicated architecture or overall limited functionality, they ended up regretting their call to use an ORM or went back to using native PHP database libraries. These issues can be avoided and prepared for, mainly by understanding what ORMs do well or where they are not the best fit. In the end, let's try to make it less of a worry to use them - they are not that tricky after all.
+
+Comments
+Based on years of experience working with Doctrine and giving talks about Doctrine at various conferences, user groups and events.
+
+-------------------
+Talk
+REST. Let's get the facts straight
+
+This talk aims to show why the ideas by Roy T. Fielding are in fact practical and how common misconceptions (like JSON > XML war) are usually wrong or not even relevant. And most importantly - why you should care. 
+
+There is a lot of confusion around RESTful web services - how to do versioning, why people are advocating XML, what on earth is HATEOAS, etc. In the end, you might find yourself going for a solution which "just works" or is more "practical", because you find yourself struggling to understand why anyone would want to overcomplicate their API so much.
+
+There are reasons why you would do this, which all can be proven with facts, like all engineers should argue their points. In the end, you will either reconsider your RESTful services design or leave with a better understanding of fundamental concepts of web and REST.
+
+-------------------
+Talk
+You can't optimize, what you can't measure
+
+Applications are complicated structures, usually consisting of a lot of moving parts and thus it's not so easy to tell if an app is not functioning properly. Luckily nowadays there are tools to monitor applications in production to both detect code level problems and most importantly also business-logic level problems. Let's look at various different tools to record and analyze metrics and how this could be useful to make sure an application is running correctly and a recent commit hasn't decreased it's performance. 
+
+-------------------
+Talk
+Growing spiders to crawl the web
+
+In most cases, the best place to get some data is right there in some website. The data owner might not have an API and is not really interested in providing you with data in any other form. So you are stuck trying to figure out how to scrape that data and makes sense of it… This is where web scraping comes in - building small applications which understand the semantics of some websites and can figure out how to extract and categorize information, eventually with even some machine learning. This talk goes through the basics of web scraping and teaches you how you could build them and not get IP-banned by every site out there. 
+
+-------------------
+Talk
+Process any amounts of data. Any time
+
+Processing one billion database rows doesn't need to kill your web server. Really, it doesn't. Applying lazy evaluation ideas you can make your scripts handle as much data as there exists, never using more memory than one unit's size (for example a database row). Using clever iterators, cursors and streams I'll show you how you can reduce memory usage drastically, thus making your scripts more reliable and your sysadmins happy.
+
+-------------------
+Talk
+Crawling the web with Scrapy
+
+In most cases, the best place to get some data is right there in some website. The problem is - how to do it without having to invest a lot of times in building unreliable web crawlers. Scrapy helps here a lot, allowing to build spiders easily and reliably. Here is how it all works.
+
+-------------------
+Talk
+Building distributed systems
+
+Everyone starts with a simple one-machine setup, running PHP, MySQL and Apache. Sooner or later that's not enough and you are faced with some important architecture decisions. This talk goes through the principles and lessons when scaling from simple architectures to dynamically sized distributed ones, all without killing the business growth or paying millions for hosting. 
+
+-------------------
+Talk
+Throw some data science at it
+
+So you are gathering gigabytes of data every day, everyone is excited because you are so "big data", but... what you are going to do with all that data? Well, throw some data science at it. Analyzing business problems, finding and storing the right data and coming up with algorithms to analyze that, is what data scientists too. It's an extremely exciting field and you are going to learn all the reasons to be excited too. If not, then well... you'll stop storing that data, it's not like you are going to use it anyway.
